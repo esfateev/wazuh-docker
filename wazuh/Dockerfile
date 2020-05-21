@@ -1,4 +1,4 @@
 FROM wazuh/wazuh:latest
 
-# Set repositories.
+# Set permissions.
 RUN chown ossec:ossec -R /var/ossec/
